@@ -1,3 +1,11 @@
-console.log("hellllllllllo")
-var=num "44444444";
-let alert ("tttttttttttttttttt")
+alert("wajeeha");
+
+var name = "api";
+alert(name);
+
+var frist_Name = "ali";
+console.log(typeof(frist_Name));
+
+var name2 = 12222;
+console.log(typeof(name2));
+
