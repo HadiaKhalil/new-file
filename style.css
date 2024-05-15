@@ -1,4 +1,5 @@
 body{
     background-color: blue;
     background-image:url(./google-io-2015-093.webp);
+    background-repeat: no-repeat;
 }
