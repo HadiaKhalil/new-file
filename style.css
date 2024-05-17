@@ -1,0 +1,280 @@
+@import url('https://fonts.googleapis.com/css2?family=Madimi+One&family=Oswald:wght@200..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Edu+NSW+ACT+Foundation:wght@400..700&family=Madimi+One&family=Oswald:wght@200..700&display=swap');
+
+body{
+    min-width:100vh;
+    padding: 50px 200px;
+
+    
+  font-family: "Lato", sans-serif;
+  background: url(./R\ -\ Copy.jfif);
+    
+    justify-content: center;
+    align-items: center; 
+    
+}
+ .container{
+    position: relative;
+    max-width: 700px;
+    width: 100%;
+    background-color: rgb(0, 0, 0, 0.5);
+    color: white;
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgb(240, 237, 237);
+    margin-left: 100px;
+} 
+.container header{
+font-size:1.5rem ;
+color: rgb(251, 255, 251);
+font-weight: 500;
+border: 2px double rgb(255, 245, 245);
+
+border-width: 5px;
+padding: 20px;
+
+
+font-family: "Edu NSW ACT Foundation", cursive;
+font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+ .form .input-box{
+    
+     width: 50%;
+    margin: 20px; 
+    
+}
+.input-box1{
+    margin-left: 15px;
+}
+.input-boxx{
+    margin-left: 15px;
+}
+
+.input1{
+    margin-left: 45PX;
+}
+
+.input2{
+    margin-left: 55px;
+}
+
+.input3{
+    margin-left: 54px;
+}
+
+.input4{
+    margin-left: 55px;
+}
+.input5{
+    margin-left: 66px;
+    margin-top:17px ;
+
+}
+.input6{
+    margin-left: 100px;
+    margin-top:17px ;
+}
+.input7{
+    margin-left: 91px;
+    margin-top:17px;
+}
+    
+
+/* .input-box label{
+    color: #131111; */
+}
+
+.form :where(.input-box ,.input-box1 input ,.select-box){
+    position: relative; 
+    height: 50px;
+    width: 90%;
+    outline: none;
+    font-size: 1rem;
+    color: rgb(8, 8, 8);
+    margin-top: 8px;
+    background-color: rgb(249, 244, 159);
+    color: rgb(7, 7, 8);
+    border: 1px solid #131111;
+    border-radius: 6px;
+    padding: 0 15px;
+}
+ .COLUMN{
+    display: flex;
+    column-gap: 15px;
+}
+.form .gender-box{
+    margin-top: 15px;
+    font-size: 1rem;
+     font-family: 400; 
+ 
+    margin-bottom: 8px;
+    flex-wrap: wrap;
+    margin-left: 17PX;
+}
+
+.gender-option{
+     display: flex;
+     padding-left: 180px;
+     margin-top: -23px;
+
+    
+}
+.city{
+    padding-left: 15px;
+    padding-top: 15px;
+}
+.SELECT-BOX{
+    padding-left: 120px;
+    padding-top: 15px;
+}
+
+.course{
+    padding-left: 15px;
+    padding-top: 15px;
+}
+
+.blood{
+    padding-left: 15px;
+    padding-top: 15px;
+}
+.SELECT-BOX2{
+    padding-left: 96px;
+    padding-top: 15px;
+    border-radius: 50px;
+    
+}
+.DISTRICT{
+    padding-left: 15px;
+    padding-top: 15px;
+}
+.SELECT-BOX3{
+    padding-left: 103px;
+    padding-top: 15px;
+}
+
+.states{
+    padding-left: 15px;
+    padding-top: 15px;
+}
+.SELECT-BOX4{
+    padding-left: 107px;
+    padding-top: 15px;
+}
+
+.SELECT-BOX5{
+    padding-left: 111px;
+    padding-top: 15px;
+}
+
+
+
+.form:where(.gender-option,.gender){
+    display: flex;
+    align-items: center;
+    column-gap: 15px;
+}
+.form .gender {
+    column-gap: 15px;
+    cursor:pointer ;
+} 
+
+.form:where(.gender input, .gender label){
+cursor: pointer;
+}
+.Adress:where(.gender input, .gender label){
+    margin-top: 20px;
+    }
+    
+
+.SELECT-BOX SELECT{
+    height: 100%;
+    width: 100%;
+    outline: none;
+    color: rgb(12, 12, 12);
+    font-size: 1rem;
+    border: none;
+    margin-top: 3px;
+    background-color: rgb(204, 221, 209);
+    border-radius: 6px;
+    font-weight: 400;
+}
+
+.SELECT-BOX2 SELECT{
+    height: 100%;
+    width: 100%;
+    outline: none;
+    color: rgb(12, 12, 12);
+    font-size: 1rem;
+    border: none;
+    margin-top: 3px;
+    background-color: rgb(204, 221, 209);
+    border-radius: 6px;
+    font-weight: 400;
+}
+.SELECT-BOX3 SELECT{
+    height: 100%;
+    width: 100%;
+    outline: none;
+    color: rgb(12, 12, 12);
+    font-size: 1rem;
+    border: none;
+    margin-top: 3px;
+    background-color: rgb(204, 221, 209);
+    border-radius: 6px;
+    font-weight: 400;
+}
+
+.SELECT-BOX4 SELECT{
+    height: 100%;
+    width: 100%;
+    outline: none;
+    color: rgb(12, 12, 12);
+    font-size: 1rem;
+    border: none;
+    margin-top: 3px;
+    background-color: rgb(204, 221, 209);
+    border-radius: 6px;
+    font-weight: 400;
+}
+.SELECT-BOX5 SELECT{
+    height: 100%;
+    width: 100%;
+    outline: none;
+    color: rgb(12, 12, 12);
+    font-size: 1rem;
+    border: none;
+    margin-top: 3px;
+    background-color: rgb(204, 221, 209);
+    border-radius: 6px;
+    font-weight: 400;
+}
+
+.form button{
+    margin: 20px;
+    height: 41px;
+    width: 10%;
+    border-radius: 10PX;
+    
+}
+
+.form button:hover{
+    background-color: rgb(76, 218, 10);
+}
+
+@media screen and (max-width:700px){
+.form.COLUMN{
+    flex-wrap: wrap;
+}
+}
+    
+
+
+@media screen and (max-width:490px){
+    .form:where(.gender-option, .gender){
+    row-gap: 15px;
+    flex-wrap: wrap;
+    }
+
+}
